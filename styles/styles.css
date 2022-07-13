@@ -1,0 +1,57 @@
+/**********************************external css*******************************************/
+body {
+  background-color: bisque;
+  content-visibility:auto ;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: grey;
+  width: 5%;
+  border-width: 5px;
+}
+
+table {
+  border: 5px;
+  border-style: inset;
+  background-color: #a27b5c;
+}
+
+h1 {
+  background-color: #a27b5c;
+  font-family: sans-serif;
+}
+
+em {
+  color: black;
+}
+
+th {
+  color: black;
+  font-family: serif;
+}
+
+input {
+  background-color: burlywood;
+}
+/************************sudo class******************************************/
+img:hover {
+  background-color: darkgrey;
+}
+
+/*********************************id selectors***************************************************/
+#guitar {
+  border-style: inset;
+  border-color:aliceblue;
+  border-image:auto;
+}
+
+/*********************************class selectors************************************************************/
+.circular {
+  border-radius: 100%;
+}
+
+.kashmire {
+  border-style: none;
+}
